@@ -1,0 +1,52 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+.padreFlex{
+    display: flex;
+    flex-direction: row;
+    background-color: #C85C5C;
+    height: 250px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hijoFlex{
+    background-color: coral;
+    padding: 20px;
+    border: solid  #B2EA70  3px;
+    
+}
+
+a{
+color: black;
+}
+
+.divPadre{
+    background-color: #C85C5C;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divHijo{
+    background-color: #F9975D;
+    border: solid #B2EA70 3px;
+    padding: 25px;
+}
+.impar{
+    align-self: self-start;
+}
+
+.headerGaleria{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.headerGaleria ul{
+    display: flex;
+    list-style: none;
+}
